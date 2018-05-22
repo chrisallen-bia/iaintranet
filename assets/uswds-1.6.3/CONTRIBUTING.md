@@ -12,7 +12,7 @@ If you have any questions or want to read more, check out the [18F Open Source P
 
 ### Contributor Guidelines for Design
 
-We have provided some guidelines for folks that would like to submit new components to the U.S. Web Design System and the lifecycle those new components will go through. For more detail, please visit the [guidelines on our wiki](https://github.com/uswds/uswds/wiki/Contribution-Guidelines:-Design).
+We have provided some guidelines for folks that would like to submit new components to the U.S. Web Design System // Indian Affairs Intranet and the lifecycle those new components will go through. For more detail, please visit the [guidelines on our wiki](https://github.com/uswds/uswds/wiki/Contribution-Guidelines:-Design).
 
 ### Submitting an issue
 
@@ -34,7 +34,7 @@ Here are a few guidelines to follow when submitting a pull request:
 
 ### Running locally
 
-The U.S. Web Design System `uswds` package (the zip download and the
+The U.S. Web Design System // Indian Affairs Intranet `uswds` package (the zip download and the
 files needed to use the Design System on your project) is built primarily with
 two [Node.js] tools: [Fractal] and [Gulp]. Once you've cloned this
 repository, you'll need to install its dependencies:
