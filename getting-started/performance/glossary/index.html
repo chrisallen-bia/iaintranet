@@ -18,8 +18,8 @@
 ================================================== -->
   
 
-<title>Web performance glossary | U.S. Web Design System</title>
-<meta property="og:title" content="Web performance glossary | U.S. Web Design System">
+<title>Web performance glossary | U.S. Web Design System // Indian Affairs Intranet</title>
+<meta property="og:title" content="Web performance glossary | U.S. Web Design System // Indian Affairs Intranet">
 
 
 
@@ -30,15 +30,8 @@
 <meta name="twitter:site" content="@USWDS">
 <meta property="og:type" content="article">
 
-
-
-
-
-
-<link rel="canonical" href="https://designsystem.digital.gov/performance/glossary/">
-<meta property="og:url" content="https://designsystem.digital.gov/performance/glossary/">
-
-
+<link rel="canonical" href="https://designsystem.digital.gov../performance/glossary/">
+<meta property="og:url" content="https://designsystem.digital.gov../performance/glossary/">
 
 <!-- Favicons
 ================================================== -->
@@ -62,7 +55,7 @@
 
 <!-- CSS
 ================================================== -->
-<link rel="stylesheet" href="/css/styleguide.css">
+<link rel="stylesheet" href="../../assets/uswds-1.6.3/css/uswds.css">
 
   </head>
   <body class="page-web-performance-glossary layout-styleguide ">
@@ -561,7 +554,7 @@
     
       
 
-<a href="/performance/" class="usa-current">
+<a href="../performance/" class="usa-current">
   <span>
     Performance guidelines
   </span>
@@ -823,7 +816,7 @@
     
       
 
-<a href="/performance/" class="usa-current">
+<a href="../performance/" class="usa-current">
   
     Performance guidelines
   
@@ -841,7 +834,7 @@
     
       
 
-<a href="/performance/what/">
+<a href="../performance/what/">
   
     What is web performance
   
@@ -856,7 +849,7 @@
     
       
 
-<a href="/performance/why/">
+<a href="../performance/why/">
   
     Why track performance
   
@@ -871,7 +864,7 @@
     
       
 
-<a href="/performance/how/">
+<a href="../performance/how/">
   
     How to track performance
   
@@ -886,7 +879,7 @@
     
       
 
-<a href="/performance/glossary/" class="usa-current">
+<a href="../performance/glossary/" class="usa-current">
   
     Web performance glossary
   
@@ -945,7 +938,7 @@
     
       
 
-<a href="/performance/http2/">
+<a href="../performance/http2/">
   
     HTTP/2 Performance Guide
   
@@ -960,7 +953,7 @@
     
       
 
-<a href="/performance/research/">
+<a href="../performance/research/">
   
     Performance research
   
@@ -1151,7 +1144,7 @@
 </ul>
 
 <h4 id="how-to-measure">How to measure</h4>
-<p>Onload can be measured in the browser with the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Performance">performance API</a>, which is available in all browsers except Internet Explorer 9 or earlier and Safari:</p>
+<p>Onload can be measured in the browser with the <a href="https://developer.mozilla.org/en-US/docs/Web/API../performance">performance API</a>, which is available in all browsers except Internet Explorer 9 or earlier and Safari:</p>
 
 <div class="highlighter-rouge"><pre class="highlight"><code>  function accurateMeasurement() {
     setTimeout(function() {
@@ -1319,7 +1312,7 @@
   <p>[…] the point at which layout has stabilized, key webfonts are visible, and the main thread is available enough to handle user input.</p>
 </blockquote>
 
-<p>This metric can be calculated through the browser timings API, <a href="https://developer.mozilla.org/en-US/docs/Web/API/PerformanceTiming/domInteractive">the <code class="highlighter-rouge">PerformanceTiming.domInteractive</code> property</a>, or through speed index timings that take into account asset and script loading and execution that block the main thread. <code class="highlighter-rouge">PerformanceTiming.domInteractive</code> is an inaccurate measurement because it accounts for all DOM, blocking script, and style requests to be complete. This can lead to very large numbers, even when the user was actually able to interact with the page before all of those tasks completed. For more accurate measurements you should use other implementations of the metric, such as what’s provided by <a href="https://developers.google.com/web/tools/lighthouse/">Lighthouse</a>.</p>
+<p>This metric can be calculated through the browser timings API, <a href="https://developer.mozilla.org/en-US/docs/Web/API../performanceTiming/domInteractive">the <code class="highlighter-rouge">PerformanceTiming.domInteractive</code> property</a>, or through speed index timings that take into account asset and script loading and execution that block the main thread. <code class="highlighter-rouge">PerformanceTiming.domInteractive</code> is an inaccurate measurement because it accounts for all DOM, blocking script, and style requests to be complete. This can lead to very large numbers, even when the user was actually able to interact with the page before all of those tasks completed. For more accurate measurements you should use other implementations of the metric, such as what’s provided by <a href="https://developers.google.com/web/tools/lighthouse/">Lighthouse</a>.</p>
 
 <p>Time to interactive can be nicely paired with speed index or first meaningful paint, as both test when the page is visually complete, while time to interactive tests when the page can be interacted with by the user. The purpose and the content of the site will determine which metric is more important, and may determine whether time to first interactive is even necessary to measure. For example, if the site is heavy on content (such as a blog), then first interactive may not be necessary because the user’s only “interaction” with the site is to read it.</p>
 
@@ -1404,7 +1397,7 @@
 
 <h4 id="how-to-measure-7">How to measure</h4>
 
-<p>First paint can be accessed via the <a href="https://developer.mozilla.org/en-US/docs/Web/API/PerformanceTiming">performance timing API</a> in supported browsers, such as recent versions of Chrome, Firefox, and Internet Explorer. In Internet Explorer it can be accessed via <code class="highlighter-rouge">performance.timing.msFirstPaint</code> (<a href="https://msdn.microsoft.com/en-us/library/ff974719(v=vs.85).aspx">more info from Microsoft</a>). In Chrome it can be accessed via <code class="highlighter-rouge">window.chrome.loadTimes().firstPaintTime</code> (<a href="https://gist.github.com/acdha/a1fd7e91f8cd5c1f6916">more info from Chrome</a>). It’s also available in most testing tools.</p>
+<p>First paint can be accessed via the <a href="https://developer.mozilla.org/en-US/docs/Web/API../performanceTiming">performance timing API</a> in supported browsers, such as recent versions of Chrome, Firefox, and Internet Explorer. In Internet Explorer it can be accessed via <code class="highlighter-rouge">performance.timing.msFirstPaint</code> (<a href="https://msdn.microsoft.com/en-us/library/ff974719(v=vs.85).aspx">more info from Microsoft</a>). In Chrome it can be accessed via <code class="highlighter-rouge">window.chrome.loadTimes().firstPaintTime</code> (<a href="https://gist.github.com/acdha/a1fd7e91f8cd5c1f6916">more info from Chrome</a>). It’s also available in most testing tools.</p>
 
 <h3 id="first-byte">First byte</h3>
 
@@ -1457,7 +1450,7 @@
 
 <p>The number of requests is the total number of requests that the page makes while loading resources such as CSS, JS, fonts, and images. This metric is much less important when the site is served over <a href="https://en.wikipedia.org/wiki/HTTP/2">HTTP/2</a> because that protocol does not limit the number of concurrent requests. (Each file is requested individually over HTTP 1.x, and browsers limit the number of concurrent requests from each domain.) It’s important to know whether the site requests resources from multiple domains when measuring total number of requests, as the number of domains can impact how the browser can processes these requests in parallel.</p>
 
-<p>Note: The number of requests matters much less if your site is being served over HTTP/2. For more information on HTTP/2 and it’s implications on site speed, <a href="/performance/http2">see our guide</a>.</p>
+<p>Note: The number of requests matters much less if your site is being served over HTTP/2. For more information on HTTP/2 and it’s implications on site speed, <a href="../performance/http2">see our guide</a>.</p>
 
 <h4 id="pros-10">Pros</h4>
 <ul>
