@@ -713,7 +713,7 @@ button,
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
-  background-color: #0071bc;
+  background-color: #a51c30;
   border: 0;
   border-radius: 5px;
   color: #ffffff;
@@ -835,8 +835,8 @@ button,
   [type=reset].usa-button-secondary,
   [type=image].usa-button-secondary {
     background-color: #ffffff;
-    box-shadow: inset 0 0 0 2px #0071bc;
-    color: #0071bc; }
+    box-shadow: inset 0 0 0 2px #a51c30;
+    color: #a51c30; }
     .usa-button.usa-button-secondary:hover, .usa-button.usa-button-secondary.usa-button-hover,
     .usa-button-primary.usa-button-secondary:hover,
     .usa-button-primary.usa-button-secondary.usa-button-hover,
@@ -1381,11 +1381,11 @@ legend {
 
 [type=checkbox]:checked + label::before,
 [type=radio]:checked + label::before {
-  background-color: #0071bc;
-  box-shadow: 0 0 0 1px #0071bc; }
+  background-color: #a51c30;
+  box-shadow: 0 0 0 1px #a51c30; }
 
 [type=radio]:checked + label::before {
-  box-shadow: 0 0 0 2px #ffffff, 0 0 0 4px #0071bc; }
+  box-shadow: 0 0 0 2px #ffffff, 0 0 0 4px #a51c30; }
 
 [type=checkbox]:checked + label::before,
 [type=checkbox]:checked:disabled + label::before {
@@ -1427,7 +1427,7 @@ legend {
   width: 100%; }
 
 [type=range]::-moz-range-track {
-  background: #0071bc;
+  background: #a51c30;
   border: 1px solid #757575;
   cursor: pointer;
   height: 1.2rem;
@@ -1587,7 +1587,7 @@ p {
   margin-top: 1em; }
 
 a {
-  color: #0071bc;
+  color: #a51c30;
   text-decoration: underline; }
   a:hover, a:active {
     color: #205493; }
@@ -2167,7 +2167,7 @@ dfn {
   padding-top: 1.3rem;
   padding-left: 4.8rem;
   background-position-x: right;
-  color: #0071bc;
+  color: #a51c30;
   display: block;
   font-size: 1.2rem;
   height: 4.3rem;
@@ -2781,7 +2781,7 @@ fieldset {
   padding: 0;
   text-align: left;
   -webkit-font-smoothing: auto;
-  background-color: #0071bc;
+  background-color: #a51c30;
   color: #ffffff;
   display: inline;
   float: right;
@@ -2963,7 +2963,7 @@ fieldset {
   -webkit-font-smoothing: antialiased; }
   @media screen and (min-width: 951px) {
     .usa-nav-link:hover span {
-      border-bottom: 0.4rem solid #0071bc;
+      border-bottom: 0.4rem solid #a51c30;
       padding-bottom: 0.6rem; } }
   @media screen and (min-width: 951px) {
     .usa-nav-link.usa-accordion-button span {
@@ -3035,8 +3035,8 @@ fieldset {
       .usa-nav nav {
         margin-top: 0; } }
   .usa-nav .usa-current {
-    border-left: 4px solid #0071bc;
-    color: #0071bc;
+    border-left: 4px solid #a51c30;
+    color: #a51c30;
     font-weight: 700;
     padding-left: 1.4rem; }
     @media screen and (min-width: 951px) {
@@ -3074,7 +3074,7 @@ fieldset {
     text-decoration: none; }
     .usa-nav-primary a:hover {
       background-color: #f1f1f1;
-      color: #0071bc;
+      color: #a51c30;
       text-decoration: none; }
     .usa-nav-primary a:focus {
       outline-offset: 0;
@@ -3082,8 +3082,8 @@ fieldset {
       z-index: 1; }
     .usa-nav-primary a.usa-current {
       /* stylelint-disable-line selector-no-qualifying-type */
-      border-left: 0.4rem solid #0071bc;
-      color: #0071bc;
+      border-left: 0.4rem solid #a51c30;
+      color: #a51c30;
       font-weight: 700;
       padding-left: 1.1rem; }
   @media screen and (min-width: 951px) {
@@ -3139,7 +3139,7 @@ fieldset {
       box-shadow: 2px dotted #aeb0b5; }
     .usa-nav-primary button:hover {
       background-color: #f1f1f1;
-      color: #0071bc; }
+      color: #a51c30; }
       @media screen and (min-width: 951px) {
         .usa-nav-primary button:hover {
           background-color: transparent; } }
@@ -3176,7 +3176,7 @@ fieldset {
           .usa-nav-primary button[aria-expanded=true]:hover {
             background-color: #112e51; }
           .usa-nav-primary button[aria-expanded=true] span {
-            border-bottom: 0.4rem solid #0071bc;
+            border-bottom: 0.4rem solid #a51c30;
             padding-bottom: 0.6rem;
             color: #ffffff; } }
   @media screen and (min-width: 951px) {
@@ -3186,26 +3186,26 @@ fieldset {
       padding-left: 1.5rem; }
       .usa-nav-primary a.usa-current:hover span,
       .usa-nav-primary .usa-current:hover span {
-        color: #0071bc; }
+        color: #a51c30; }
       .usa-nav-primary a.usa-current span,
       .usa-nav-primary .usa-current span {
-        border-bottom: 0.4rem solid #0071bc;
+        border-bottom: 0.4rem solid #a51c30;
         padding-bottom: 0.6rem;
         color: #212121; } }
 
 @media screen and (min-width: 951px) {
   .usa-header-extended .usa-nav-link:hover span {
-    border-bottom: 0.7rem solid #0071bc;
+    border-bottom: 0.7rem solid #a51c30;
     padding-bottom: 0.9rem; } }
 .usa-header-extended .usa-nav-primary button[aria-expanded=true] {
   /* stylelint-disable-line selector-no-qualifying-type */ }
   @media screen and (min-width: 951px) {
     .usa-header-extended .usa-nav-primary button[aria-expanded=true] span {
-      border-bottom: 0.7rem solid #0071bc;
+      border-bottom: 0.7rem solid #a51c30;
       padding-bottom: 0.9rem; } }
 @media screen and (min-width: 951px) {
   .usa-header-extended .usa-nav-primary .usa-current span {
-    border-bottom: 0.7rem solid #0071bc;
+    border-bottom: 0.7rem solid #a51c30;
     padding-bottom: 0.9rem; } }
 
 .usa-nav-secondary {
@@ -3249,7 +3249,7 @@ fieldset {
     text-decoration: none; }
     .usa-nav-secondary-links a:hover,
     .usa-nav-secondary-links .usa-header-search-button:hover {
-      color: #0071bc;
+      color: #a51c30;
       text-decoration: underline; }
   .usa-nav-secondary-links .usa-header-search-button {
     background-color: transparent;
@@ -3569,7 +3569,7 @@ input[type=search] {
     text-decoration: none; }
     .usa-sidenav-list a:hover {
       background-color: #f1f1f1;
-      color: #0071bc;
+      color: #a51c30;
       text-decoration: none; }
     .usa-sidenav-list a:focus {
       outline-offset: 0;
@@ -3577,8 +3577,8 @@ input[type=search] {
       z-index: 1; }
     .usa-sidenav-list a.usa-current {
       /* stylelint-disable-line selector-no-qualifying-type */
-      border-left: 0.4rem solid #0071bc;
-      color: #0071bc;
+      border-left: 0.4rem solid #a51c30;
+      color: #a51c30;
       font-weight: 700;
       padding-left: 1.1rem; }
   @media screen and (min-width: 1201px) {
@@ -3695,7 +3695,7 @@ body {
     .homepage-rule.center-diamond:before {
       content: "\00a0";
       display: inline-block;
-      background: #0071bc;
+      background: #a51c30;
       height: 1px;
       position: relative;
       top: 0.6rem;
@@ -3763,8 +3763,8 @@ body {
     .site-header-navbar {
       padding-top: 1px; } } }
 .sidenav-mobile .usa-button.usa-button-outline-inverse {
-  box-shadow: inset 0 0 0 2px #0071bc;
-  color: #0071bc; }
+  box-shadow: inset 0 0 0 2px #a51c30;
+  color: #a51c30; }
   .sidenav-mobile .usa-button.usa-button-outline-inverse:hover {
     box-shadow: inset 0 0 0 2px #205493;
     color: #205493; }
@@ -3788,7 +3788,7 @@ body {
     background-color: transparent; }
   .sidenav-mobile li > button:hover {
     background-color: #f1f1f1;
-    color: #0071bc; }
+    color: #a51c30; }
   .sidenav-mobile li > button[aria-expanded=false] {
     background-image: url("..../../assets/uswds-1.6.3/img/plus-alt.png");
     background-image: url("..../../assets/uswds-1.6.3/img/plus-alt.svg");
@@ -3847,11 +3847,11 @@ body {
     text-decoration: none;
     -webkit-font-smoothing: antialiased; }
     .site-nav-secondary a:hover span {
-      border-bottom: 0.7rem solid #0071bc;
+      border-bottom: 0.7rem solid #a51c30;
       padding-bottom: 0.9rem;
-      color: #0071bc; }
+      color: #a51c30; }
   .site-nav-secondary .usa-current span {
-    border-bottom: 0.7rem solid #0071bc;
+    border-bottom: 0.7rem solid #a51c30;
     padding-bottom: 0.9rem;
     color: #212121; }
 
@@ -4219,7 +4219,7 @@ h3 + .button_wrapper {
   box-shadow: inset 0 0 0 1px #5b616b; }
 
 .usa-color-primary {
-  background-color: #0071bc; }
+  background-color: #a51c30; }
 
 .usa-color-primary-darker {
   background-color: #205493; }
@@ -4337,7 +4337,7 @@ h3 + .button_wrapper {
   color: #205493; }
 
 .usa-color-text-primary {
-  color: #0071bc; }
+  color: #a51c30; }
 
 .usa-color-text-cool-blue-light {
   color: #4773aa; }
@@ -4770,7 +4770,7 @@ article {
       color: inherit;
       text-decoration: none; }
       article .post-title a:hover {
-        color: #0071bc;
+        color: #a51c30;
         text-decoration: underline; }
   article .post-date {
     text-transform: none; }
