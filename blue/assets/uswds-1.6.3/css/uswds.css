@@ -538,6 +538,14 @@ th {
     .usa-width-one-third:last-child {
       margin-right: 0; }
 
+  .usa-width-one-third a{
+    float: left;
+    display: block;
+    margin-left: 3em;
+}
+
+
+
   .usa-width-two-thirds {
     float: left;
     display: block;
